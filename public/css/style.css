@@ -115,7 +115,7 @@ a:hover{
   }
 
   .portfolio-index .cell{
-    margin-bottom: 15px;
+    margin-bottom: 35px;
   }
 
     .portfolio-index .cell h5{
@@ -135,13 +135,14 @@ a:hover{
 }
 
 .portfolio-project li{
-  font-size: 15px;
+  font-size: 18px;
   color: #444;
 }
 
 
 
 /* MY CSS CLASSES */
+
 
 h2, p, li, .portfolio-bio{
   font-family: 'Scope One', serif;
@@ -151,7 +152,6 @@ h2, .intro-title{
   font-weight: 600;
   color: #666;
 }
-
 
 h5, h6, h1, .intro-title{
   font-family: 'Sansita', sans-serif;
@@ -191,6 +191,10 @@ h5, h6, h1, .intro-title{
   border: none;
   margin-bottom: 0px !important;
   box-shadow: none;
+}
+
+.error-button{
+  max-width: 350px;
 }
 
 @media (max-width:640px){

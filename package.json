@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "body-parser": "*",
-    "cookie-parser": "^1.4.4",
     "express": "*",
     "pug": "^2.0.3"
   },

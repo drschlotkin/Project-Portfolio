@@ -3,7 +3,7 @@ extends layout.pug
 block content 
   article.grid-container.portfolio-intro
     div
-      img.logo-image(src='/static/images/logo.png')
+      img.logo-image(src='/static/images/logo.png' alt='Portfolio Logo')
       h2 Hello and Welcome!
       br
       p Here are a list of projects I have completed with Team Treehouse. They range from basic vanilla Javascript to more advanced applications using jQuery, Object Oriented Programming and APIs. Click the screenshot thumbnail for more information on the project. Stay tuned because there is more to come!
@@ -18,6 +18,6 @@ block content
         .cell.project-thumbnail
           a(href=`/projects/${project.id}`)
             h5.project-name=project.project_name 
-            img.thumbnail.project-img(src=`${project.image_urls[0]}` alt='thumbnail of project screenshot')
+            img.thumbnail.project-img(src=`${project.image_urls[0]}` alt='Project Screenshot Thumbnail')
             
               

@@ -1,3 +1,4 @@
+// Global express variables
 const express = require('express');
 const routes = require('./routes');
 const PORT = process.env.PORT || 3000;
@@ -21,7 +22,7 @@ app.use(routes);
 
 // Create error object
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error(' I think you took a wrong turn!');
     err.status = 404;
     next(err); 
 });

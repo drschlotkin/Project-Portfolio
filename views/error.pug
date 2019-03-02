@@ -1,14 +1,9 @@
 extends layout
 
 block content
-    h1= error.message
-    h2= error.status
+    h1= `"${error.status}"${error.message}`
+    img.error-image(src=`/static/images/404.png` alt='404')
     pre= error.stack
-    a(href='/') Go back to porfolio web page
-
-
-    //- h1 Oops, something went wrong
-    //-     article.grid-container
-    //-         .grid-x
-
-    //-             h1= `${error.message}: ${error.status}`
+    a.button.expanded.error-button(href='/') GO BACK TO PORTFOLIO WEB PAGE
+    
+    

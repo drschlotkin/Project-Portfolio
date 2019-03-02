@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "Displays a random selected quote each time the user clicks a button.",
+            "description": "My very first web application. Displays a random selected quote each time the user clicks a button.",
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link": "https://ewenearle.github.io/A-Random-Quote-Generator/",
             "github_link": "https://github.com/ewenearle/A-Random-Quote-Generator",
