@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Displays a random selected quote each time the user clicks a button.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://ewenearle.github.io/A-Random-Quote-Generator/",
+            "github_link": "https://github.com/ewenearle/A-Random-Quote-Generator",
+            "image_urls": ["/static/images/project0thumb.png","/static/images/project0a.png", "/static/images/project0b.png", "/static/images/project0c.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination and Filtering",
+            "description": "This project takes a long list of people and divides them into seperate pages; also includes search feature.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://ewenearle.github.io/List-Pagination-and-Filtering/",
+            "github_link": "https://github.com/ewenearle/List-Pagination-and-Filtering",
+            "image_urls": ["/static/images/project1thumb.png", "/static/images/project1a.png", "/static/images/project1b.png", "/static/images/project1c.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Interactive registration form for a fictional conference. Includes real time validation error messages.",
+            "technologies": ["jQuery", "CSS", "HTML"],
+            "live_link": "https://ewenearle.github.io/Interactive-Form/",
+            "github_link": "https://github.com/ewenearle/Interactive-Form",
+            "image_urls": ["/static/images/project2thumb.png","/static/images/project2a.png", "/static/images/project2b.png","/static/images/project2c.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter",
+            "description": "This is a word guessing game that uses Object-Oriented Programming. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://ewenearle.github.io/oop_game-v2/",
+            "github_link": "https://github.com/ewenearle/oop_game-v2",
+            "image_urls": ["/static/images/project3thumb.png","/static/images/project3a.png", "/static/images/project3b.png","/static/images/project3c.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Employee Directory",
+            "description": "This app creates an employee directory using a third-party API. Clicking the employee’s image or name will open a modal window. Also includes a search feature.",
+            "technologies": ["JavaScript", "CSS", "HTML", "Fetch API"],
+            "live_link": "https://ewenearle.github.io/public_api_request-v1/",
+            "github_link": "https://github.com/ewenearle/public_api_request-v1",
+            "image_urls": ["/static/images/project4thumb.png","/static/images/project4a.png", "/static/images/project4b.png", "/static/images/project4c.png"]
+        }
+    ]
+}
