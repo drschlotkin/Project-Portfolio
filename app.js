@@ -29,9 +29,11 @@ app.use((req, res, next) => {
 
 
 // Error handler
-app.use((err, req, res, next) => {
+app.use((err, req, res, next) => { 
+    console.dir('============================')
+    console.dir('Sorry! An error has occured!');
     res.locals.error = err;
-    res.status(err.status)
+    res.status(err.status);
     res.render('error');
 });
 
