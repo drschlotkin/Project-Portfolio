@@ -5,7 +5,7 @@
 * Scripting languages written by Ewen Earle
 * Main design (HTML and CSS) provided by Team Treehouse
 
-## HTML AND CSS Additions
+## HTML and CSS Additions
 
 * Custom logo on main page
 * New font family applied to headings and paragraph
