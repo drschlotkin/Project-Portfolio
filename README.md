@@ -1,7 +1,5 @@
 # Static Node.js and Express Site
 
-<a href="https://teamtreehouse.com" target="_blank">Team Treehouse</a> Full Stack Techdegree - Project #6
-
 ## Introduction
 
 * Scripting languages written by Ewen Earle
